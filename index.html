@@ -49,9 +49,24 @@
         footer {
             text-align: center;
         }
+
+        /* Initial styles for the headings */
+        .hover-effect {
+            padding: 10px; /* Add some padding around the heading text */
+            border: 2px solid transparent; /* Initially, the border is transparent */
+            transition: border 0.3s ease-in-out; /* Smooth transition for the border */
+        }
+
+        /* Styles for the headings when hovered over */
+        .hover-effect:hover {
+            border: 2px solid #0074d9; /* Change the border color and make it visible */
+        }
     </style>
 </head>
 <body>
+    <h2 class="hover-effect">Heading 1</h2>
+    <h2 class="hover-effect">Heading 2</h2>
+    <h2 class="hover-effect">Heading 3</h2>
     <header>
         <h1>WELCOME</h1>
     </header>
@@ -73,7 +88,7 @@
             <p>Showcase your projects and work here.</p>
         </section>
         <section>
-            <h2>CONTACT ME</h2>
+            <h2>CONTACT</h2>
             <p>
                 You can reach me at:
                 <a href="mailto:richardofarrell73@gmail.com">richardofarrell73@gmail.com</a>
