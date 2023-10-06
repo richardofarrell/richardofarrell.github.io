@@ -26,6 +26,33 @@
         .image-container {
             position: relative;
         }
+
+        /* Style the left image container */
+        .left-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        /* Style the top right image container */
+        .top-right-image {
+            position: absolute;
+            top: 40px;
+            right: 30px;
+        }
+        
+        /* Style the bottom right image container with an offset */
+        .bottom-right-image {
+            position: absolute;
+            bottom: 20px; /* Adjust the offset from the bottom as needed */
+            right: -25px;
+        }
+
+        /* Reduce the size of all images by 25% */
+        img {
+            width: 75%;
+            height: auto;
+        }
         
         /* Style the header */
         header {
@@ -63,33 +90,6 @@
         /* Hover effect for the "STUFF" heading */
         .no-underline:hover {
             border: 2px solid #0074d9; /* Apply the hover effect */
-        }
-
-        /* Style the left image container */
-        .left-image {
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-        
-        /* Style the top right image container */
-        .top-right-image {
-            position: absolute;
-            top: 40px;
-            right: 30px;
-        }
-        
-        /* Style the bottom right image container with an offset */
-        .bottom-right-image {
-            position: absolute;
-            bottom: 20px; /* Adjust the offset from the bottom as needed */
-            right: -25px;
-        }
-
-        /* Reduce the size of all images by 25% */
-        img {
-            width: 75%;
-            height: auto;
         }
 
     </style>
