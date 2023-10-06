@@ -21,6 +21,20 @@
             margin: 0;
             background-color: #FFF5C9; /* Light cream */
         }
+
+        /* Create a container for the main content and images */
+        .content-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Position the image container at the bottom right */
+        .image-container {
+            position: absolute;
+            bottom: 20px;
+            right: 0;
+        }
         
         /* Style the header */
         header {
@@ -96,13 +110,15 @@
     <header>
         <h1><a class = "no-underline" href="blog-list.html">STUFF</a></h1>
     </header>
-    <main>
+    <main class="content-container">
         <section>
             <h2 class="hover-effect">ABOUT ME</h2>
         </section>
         <section>
             <h2 class="hover-effect">CONTACT</h2>
         </section>
+    </main>
+    <div class="image-container">
         <div class="left-image">
             <img src="wbg_dna.png" alt="DNA strand">
         </div>
@@ -112,7 +128,7 @@
         <div class="bottom-right-image">
             <img src="wbg_web.png" alt="Web of woven guesses">
         </div>
-    </main>
+    </div>
     <footer>
         <p>&copy; 2023 Richard O'Farrell</p>
     </footer>
