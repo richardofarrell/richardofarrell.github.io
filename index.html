@@ -73,16 +73,32 @@
         .hover-effect:visited {
             color: #3B3C26; /* Set the link color to the same as the regular state */
         }
+
+        /* Dropdown style for the ABOUT ME section */
+        .dropdown-content {
+            display: none; /* Initially, hide the content */
+            padding: 10px;
+            text-align: left;
+        }
+
+        /* Show the content when the ABOUT ME section is clicked */
+        .about-me:hover + .dropdown-content {
+            display: block;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1><a class = "hover-effect" href="blog-list.html">STUFF</a></h1>
     </header>
+    <header>
+        <h1 class="hover-effect about-me">ABOUT ME</h1>
+        <!-- Dropdown content for ABOUT ME section -->
+        <div class="dropdown-content">
+            <p>Hello, my name is Richard. This is my WIP website, an addendum to my WIP life. I like science, philosophy, and progress.</p>
+        </div>
+    </header>
     <main>
-        <section>
-            <h2 class="hover-effect">ABOUT ME</h2>
-        </section>
         <section>
             <h2 class="hover-effect">CONTACT</h2>
         </section>
