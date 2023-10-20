@@ -76,14 +76,17 @@
 
         /* Dropdown style for the ABOUT ME section */
         .dropdown-content {
-            display: none; /* Initially, hide the content */
-            padding: 10px;
-            text-align: left;
+            opacity: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: opacity 0.3s ease, max-height 0.3s ease;
         }
 
         /* Show the content when the ABOUT ME section is clicked */
         .about-me:hover + .dropdown-content {
-            display: block;
+            opacity: 1;
+            max-height: 200px;
+            transition: opacity 0.3s ease, max-height 0.3s ease;
         }
     </style>
 </head>
