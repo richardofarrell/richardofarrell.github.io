@@ -97,10 +97,11 @@
             transition: opacity 0.6s ease, max-height 0.6s ease;
         }
 
-        a {
+        .dropdown-content a:hover {
             text-decoration: none;
             color: black;
             border-bottom-style: none;
+            padding-bottom: 20px
         }
     </style>
 </head>
@@ -117,12 +118,9 @@
     </header>
     <header>
         <h2 class="hover-effect contact">CONTACT</h2>
-        <div class="dropdown">
-            <button class="dropbtn">Dropdown</button>
-            <!-- Dropdown content for CONTACT section -->
-            <div class="dropdown-content">
-                <p>You can lavish me with praise at <a class="email-link" href="mailto:richardofarrell73@gmail.com">richardofarrell73@gmail.com</a></p>
-            </div>
+        <!-- Dropdown content for CONTACT section -->
+        <div class="dropdown-content">
+            <p>You can lavish me with praise at <a class="email-link" href="mailto:richardofarrell73@gmail.com">richardofarrell73@gmail.com</a></p>
         </div>
     </header>
     <main>
