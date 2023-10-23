@@ -75,6 +75,11 @@
         }
 
         /* Dropdown style */
+        .dropdown-container {
+            position: relative;
+        }
+        
+        /* Dropdown style */
         .dropdown-content {
             opacity: 0;
             max-height: 0;
@@ -83,12 +88,16 @@
             overflow: auto;
         }
 
-        /* Show the content when the ABOUT ME section is clicked */
+        .dropdown-container:hover .dropdown-content {
+            opacity: 1;
+            max-height: 200px;
+        }
+
+/*         /* Show the content when the ABOUT ME section is clicked */
         .about-me:hover + .dropdown-content, .about-me-dropdown:hover  {
             opacity: 1;
             max-height: 200px;
             transition: opacity 0.6s ease, max-height 0.6s ease;
-            display: block;
         }
         
         /* Show the content when the CONTACT section is clicked */
@@ -96,7 +105,7 @@
             opacity: 1;
             max-height: 200px;
             transition: opacity 0.6s ease, max-height 0.6s ease;
-        }
+        } */
 
         a {
             text-decoration: none;
@@ -109,20 +118,24 @@
     <header>
         <h1><a class = "hover-effect" href="blog-list.html">STUFF</a></h1>
     </header>
-    <header>
-        <h1 class="hover-effect about-me">ABOUT</h1>
-        <!-- Dropdown content for ABOUT ME section -->
-        <div class="dropdown-content">
-            <p>Hello, and welcome to my WIP website. I like science, philosophy, and progress – and I hope to write more about each</p>
-        </div>
-    </header>
-    <header>
-        <h2 class="hover-effect contact">CONTACT</h2>
-        <!-- Dropdown content for CONTACT section -->
-        <div class="dropdown-content">
-            <p>You can lavish me with praise at <a class="email-link" href="mailto:richardofarrell73@gmail.com">richardofarrell73@gmail.com</a></p>
-        </div>
-    </header>
+    <div class="dropdown-container">
+        <header>
+            <h1 class="hover-effect about-me">ABOUT</h1>
+            <!-- Dropdown content for ABOUT ME section -->
+            <div class="dropdown-content">
+                <p>Hello, and welcome to my WIP website. I like science, philosophy, and progress – and I hope to write more about each</p>
+            </div>
+        </header>
+    </div>
+    <div class="dropdown-container">
+        <header>
+            <h2 class="hover-effect contact">CONTACT</h2>
+            <!-- Dropdown content for CONTACT section -->
+            <div class="dropdown-content">
+                <p>You can lavish me with praise at <a class="email-link" href="mailto:richardofarrell73@gmail.com">richardofarrell73@gmail.com</a></p>
+            </div>
+        </header>
+    </div>
     <main>
         <div class="left-image">
             <img src="wbg_dna.png" alt="DNA strand">
