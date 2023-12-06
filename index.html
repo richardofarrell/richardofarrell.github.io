@@ -76,35 +76,27 @@
             color: #3B3C26; /* Set the link color to the same as the regular state */
         }
 
-        /* Dropdown container style */
+        /* Dropdown style */
         .dropdown-container {
             position: relative;
-            border: 1px solid transparent; /* Initially, the border is transparent */
         }
         
-        /* Dropdown content style */
+        /* Dropdown style */
         .dropdown-content {
-            max-width: 80%;
+            max-width: 50%;
             margin: 0 auto;
-            border: 1px solid #3B3C26; /* Set the default border color */
-            background-color: white; /* Set the default background color */
-            padding: 10px; /* Add padding for better visibility */
             opacity: 0;
             max-height: 0;
             overflow: hidden;
-            transition: opacity 0.6s ease, max-height 0.6s ease, background-color 0.3s ease; /* Add background-color transition */
+            transition: opacity 0.6s ease, max-height 0.6s ease;
             overflow: auto;
         }
-        
-        /* Change the background color and border on hover */
+
         .dropdown-container:hover .dropdown-content {
             opacity: 1;
             max-height: 200px;
-            background-color: #3B3C26; /* Change the background color on hover */
-            border: 1px solid white; /* Change the border color on hover */
         }
-        
-        /* Style the links within the dropdown */
+
         .dropdown-content p a {
             text-decoration: none;
             color: black;
