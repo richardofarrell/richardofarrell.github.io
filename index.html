@@ -51,23 +51,25 @@
             height: auto;
         }
 
-        /* Initial styles for the headings */
+        /* Style the headings for the dropdown */
         .hover-effect {
             padding: 10px;
             margin-left: 550px;
             margin-right: 550px;
-            border: 1px solid transparent; /* Initially, the border is transparent */
-            transition: border 0.3s ease-in-out; /* Smooth transition for the border */
+            border: 1px solid #3B3C26; /* Set the default border color */
+            background-color: white; /* Set the default background color */
+            transition: background-color 0.3s ease, border 0.3s ease; /* Add transition for background and border */
             text-decoration: none;
             color: #3B3C26;
             font-weight: normal;
         }
-
-        /* Styles for the headings when hovered over */
+        
+        /* Change the background color and border on hover */
         .hover-effect:hover {
-            border: 1px solid #3B3C26; /* Change the border color and make it visible */
-            font-weight: normal;
+            background-color: #3B3C26; /* Change the background color on hover */
+            border: 1px solid white; /* Change the border color on hover */
         }
+
 
         /* Style visited links to have the same color as the regular link */
         .hover-effect:visited {
