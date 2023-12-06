@@ -51,12 +51,6 @@
             height: auto;
         }
 
-        
-        /* Style the header */
-        header, main, footer {
-            text-align: center;
-        }
-
         /* Initial styles for the headings */
         .hover-effect {
             padding: 10px;
@@ -104,14 +98,18 @@
             color: black;
             border-bottom: none;
         }
+
+        .center-text {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-    <header>
+    <header class="center-text">
         <h1><a class = "hover-effect" href="blog-list.html">STUFF</a></h1>
     </header>
     
-    <section class="dropdown-container">
+    <section class="dropdown-container center-text">
         <h1 class="hover-effect about-me">ABOUT</h1>
         <!-- Dropdown content for ABOUT ME section -->
         <div class="dropdown-content">
@@ -119,7 +117,7 @@
         </div>
     </section>
     
-    <section class="dropdown-container">
+    <section class="dropdown-container center-text">
         <h2 class="hover-effect contact">CONTACT</h2>
         <!-- Dropdown content for CONTACT section -->
         <div class="dropdown-content">
