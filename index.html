@@ -15,8 +15,8 @@
         }
 
         .dropdown-container {
-            display: inline-block;
-            margin: 10px;
+            display: block;
+            margin: 10px auto;
             position: relative;
         }
 
@@ -67,29 +67,32 @@
 
         .center-text {
             text-align: center;
+            margin: auto;
         }
     </style>
 </head>
 <body>
     <div class="center-text">
-        <h1><a href="blog-list.html">STUFF</a></h1>
+        <div class="dropdown-container">
+            <h1><a href="blog-list.html">STUFF</a></h1>
+        </div>
+        
+        <div class="dropdown-container">
+            <h2>ABOUT</h2>
+            <!-- Dropdown content for ABOUT ME section -->
+            <div class="dropdown-content">
+                <p>Hello, and welcome to my WIP website. I like science, philosophy, progress, truth, beauty, and many other things – of and about which I hope to know and write more</p>
+            </div>
+        </div>
+        
+        <div class="dropdown-container">
+            <h3>CONTACT</h3>
+            <!-- Dropdown content for CONTACT section -->
+            <div class="dropdown-content">
+                <p>You can lavish me with praise or offer me a job at <a class="email-link" href="mailto:richardofarrell73@gmail.com">richardofarrell73@gmail.com</a></p>
+            </div>
+        </div>
     </div>
-    
-    <section class="dropdown-container center-text">
-        <h1>ABOUT</h1>
-        <!-- Dropdown content for ABOUT ME section -->
-        <div class="dropdown-content">
-            <p>Hello, and welcome to my WIP website. I like science, philosophy, progress, truth, beauty, and many other things – of and about which I hope to know and write more</p>
-        </div>
-    </section>
-    
-    <section class="dropdown-container center-text">
-        <h2>CONTACT</h2>
-        <!-- Dropdown content for CONTACT section -->
-        <div class="dropdown-content">
-            <p>You can lavish me with praise or offer me a job at <a class="email-link" href="mailto:richardofarrell73@gmail.com">richardofarrell73@gmail.com</a></p>
-        </div>
-    </section>
     
     <main>
         <div class="top-left-image">
@@ -107,4 +110,5 @@
     </footer>
 </body>
 </html>
+
 
