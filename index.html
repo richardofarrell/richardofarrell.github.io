@@ -80,27 +80,20 @@
         
         /* Dropdown style */
         .dropdown-content {
-            width: 100%; /* Set a fixed width for the dropdown content */
+            width: 50%; /* Set a fixed width for the dropdown content */
             opacity: 0;
             max-height: 0.5em;
             overflow: hidden;
             transition: opacity 0.6s ease, max-height 0.6s ease;
             border-radius: 0.8em;
             padding: 2em;
-            position: absolute;
-            top: 100%;
-            left: 50%; /* Center the dropdown content horizontally */
-            transform: translateX(-50%); /* Center the dropdown content horizontally */
-            margin-top: 3em;
-            text-align: center; /* Align text to the left within the dropdown */
+            margin: 0.5em;
         }
 
         /* Dropdown style */
         .dropdown-container {
             position: relative;
             text-align: center;
-            display: inline-block;
-            width: 100%; /* Add this line to ensure it takes up the full width */
         }
 
         .dropdown-container:hover .dropdown-content {
