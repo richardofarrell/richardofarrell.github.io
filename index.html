@@ -1,111 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Richard-OFarrell</title>
+    <title>Richard O'Farrell</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <style>
-        /* Change font for headings and paragraphs */
-        h1, h2, h3, h4, h5, h6, p {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 20px; /* Adjust the desired font size */
-        }
-
-        /* Center the entire page content */
         body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            min-height: 100vh; /* Ensure the page takes up at least the viewport height */
-            background-color: #FFF5C9; /* Light cream */
-            font-size: 62.5%;
-            webkit-text-size-adjust: none;
+            font-family: 'Open Sans', sans-serif;
+            text-align: center;
+            background-color: #FFF5C9;
+            margin: 0;
+            padding: 0;
         }
 
-        /* Style the left image container */
-        .top-left-image {
-            position: absolute;
-            top: 10%;
-            left: 5%;
-        }
-        
-        /* Style the top right image container */
-        .top-right-image {
-            position: absolute;
-            top: 10%;
-            right: 15%;
-        }
-        
-        /* Style the bottom right image container with an offset */
-        .bottom-right-image {
-            position: absolute;
-            bottom: 5%; /* Adjust the offset from the bottom as needed */
-            right: 5%;
+        .dropdown-container {
+            display: inline-block;
+            margin: 10px;
+            position: relative;
         }
 
-        /* Reduce the size of all images by 25% */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 100%;
+            width: 75%;
+            background-color: #F8F0E1;
+            border-radius: 0.8em;
+            padding: 2em;
+            box-sizing: border-box;
+        }
+
+        .dropdown-container:hover .dropdown-content {
+            display: block;
+        }
+
+        h1, h2, h3 {
+            margin: 0;
+            padding: 10px;
+            cursor: pointer;
+        }
+
         img {
             width: 60%;
             height: auto;
         }
 
-        /* Style the headings for the dropdown */
-        .hover-effect {
-            padding: 0.4em;
-            width: 100%;
-            border: 1px solid #3B3C26; /* Set the default border color */
-            margin: 0 auto;
-            border-radius: 0.8em;
-            background-color: #F8F0E1; /* Set the default background color */
-            transition: background-color 0.3s ease, border 0.3s ease; /* Add transition for background and border */
-            text-decoration: none;
-            color: #3B3C26;
-            font-weight: normal;
-            justify-content: space-evenly;
-        }
-        
-        /* Change the background color and border on hover */
-        .hover-effect:hover {
-            background-color: #E4D8C2; /* Change the background color on hover */
-            border: 1px #E4D8C2; /* Change the border color on hover */
+        .top-left-image {
+            position: absolute;
+            top: 10%;
+            left: 5%;
         }
 
-
-        /* Style visited links to have the same color as the regular link */
-        .hover-effect:visited {
-            color: #3B3C26; /* Set the link color to the same as the regular state */
-        }
-        
-        /* Dropdown style */
-        .dropdown-content {
-            width: 75%; /* Set a fixed width for the dropdown content */
-            opacity: 0;
-            max-height: 0.5em;
-            overflow: hidden;
-            transition: opacity 0.6s ease, max-height 0.6s ease;
-            border-radius: 0.8em;
-            padding: 2em;
-            margin: 0 auto;
+        .top-right-image {
+            position: absolute;
+            top: 10%;
+            right: 15%;
         }
 
-        /* Dropdown style */
-        .dropdown-container {
-            width: 100%;
-            margin: 0 auto;
-            position: relative;
-            text-align: center;
-        }
-
-        .dropdown-container:hover .dropdown-content {
-            opacity: 1;
-            max-height: 15em;
-        }
-
-        .dropdown-content p a {
-            text-decoration: none;
-            color: black;
-            border-bottom: none;
+        .bottom-right-image {
+            position: absolute;
+            bottom: 5%;
+            right: 5%;
         }
 
         .center-text {
@@ -115,11 +72,11 @@
 </head>
 <body>
     <div class="center-text">
-        <h1><a class = "hover-effect" href="blog-list.html">STUFF</a></h1>
+        <h1><a href="blog-list.html">STUFF</a></h1>
     </div>
     
     <section class="dropdown-container center-text">
-        <h1 class="hover-effect">ABOUT</h1>
+        <h1>ABOUT</h1>
         <!-- Dropdown content for ABOUT ME section -->
         <div class="dropdown-content">
             <p>Hello, and welcome to my WIP website. I like science, philosophy, progress, truth, beauty, and many other things – of and about which I hope to know and write more</p>
@@ -127,7 +84,7 @@
     </section>
     
     <section class="dropdown-container center-text">
-        <h2 class="hover-effect">CONTACT</h2>
+        <h2>CONTACT</h2>
         <!-- Dropdown content for CONTACT section -->
         <div class="dropdown-content">
             <p>You can lavish me with praise or offer me a job at <a class="email-link" href="mailto:richardofarrell73@gmail.com">richardofarrell73@gmail.com</a></p>
@@ -145,8 +102,9 @@
             <img src="wbg_web.png" alt="Web of woven guesses">
         </div>
     </main>
-    <footer class="center-text>
+    <footer class="center-text">
         <p>&copy; 2023 Richard O'Farrell</p>
     </footer>
 </body>
 </html>
+
