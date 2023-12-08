@@ -113,6 +113,17 @@
             text-align: center;
         }
     </style>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Force redraw on mouseleave for the hover-effect elements
+            $('.hover-effect').on('mouseleave', function () {
+                $(this).parents('.center-text').hide().show(0);
+            });
+        });
+    </script>
+    
 </head>
 <body>
     <div class="center-text">
