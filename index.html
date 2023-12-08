@@ -112,6 +112,21 @@
         .center-text {
             text-align: center;
         }
+
+        /* Media query for small screens (phones) */
+        @media only screen and (max-width: 767px) {
+            .hover-effect {
+                width: 100%; /* Make the dropdown button full width on small screens */
+            }
+
+            .dropdown-container {
+                text-align: left; /* Align dropdown text to the left on small screens */
+            }
+
+            .dropdown-content {
+                max-width: 100%; /* Make the dropdown content full width on small screens */
+            }
+        }
     </style>
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
