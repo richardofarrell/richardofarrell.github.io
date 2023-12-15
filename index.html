@@ -52,7 +52,7 @@
         
         /* Your new styles for navigation links */
         .nav-link {
-            display: inline-block;
+            display: table-cell;
             margin: 35em 15em; /* Adjust spacing between links as needed */
             margin-top: 2em;
             text-decoration: none;
@@ -68,21 +68,9 @@
             color: #E4D8C2; /* Set color for the active link */
         }
 
-        /* Media query for small screens (phones) */
-        @media only screen and (max-width: 767px) {
-            
-            .hover-effect {
-                width: 12.5%; /* Make the dropdown button full width on small screens */
-            }
-
-            .dropdown-container {
-                text-align: center; /* Align dropdown text to the left on small screens */
-            }
-
-            .dropdown-content {
-                width: 100%; /* Make the dropdown content full width on small screens */
-            }
-        }
+        .center-text {
+             text-align: center;
+         }
     </style>
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
