@@ -1,137 +1,154 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Blog List</title>
     <style>
+        /* Change font for headings and paragraphs */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 20px;
+            /* Adjust the desired font size */
+        }
 
-    /* Change font for headings and paragraphs */
-    h1, h2, h3, h4, h5, h6, p {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 20px; /* Adjust the desired font size */
-    }
-        
-    body {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            min-height: 100vh; /* Ensure the page takes up at least the viewport height */
-            background-color: #FFF5C9; /* Light cream */
+        body {
+            min-height: 100vh;
+            /* Ensure the page takes up at least the viewport height */
+            background-color: #FFF5C9;
+            /* Light cream */
             font-family: 'Open Sans', sans-serif;
             font-size: 20px;
             text-align: center;
-            margin: 125px 250px 125px 250px;
-            line-height:.75;
-    }
+            margin: 0 250px;
+            /* Updated margin to center content */
+            line-height: .75;
+        }
 
-    body nav-link {
-            min-height: 100vh; /* Ensure the page takes up at least the viewport height */
-            background-color: #FFF5C9; /* Light cream */
+        body nav-link {
+            min-height: 100vh;
+            /* Ensure the page takes up at least the viewport height */
+            background-color: #FFF5C9;
+            /* Light cream */
             font-size: 62.5%;
             webkit-text-size-adjust: none;
-    }
-        
-    ul li a {
+        }
+
+        ul li a {
             text-decoration: none;
             color: black;
             border-bottom-style: none;
             margin-bottom: 5;
-    }
+        }
 
-    p {
-        margin-top:0;
-        line-height:2;
-    }
+        p {
+            margin-top: 0;
+            line-height: 2;
+            text-align: justify;
+            /* Justify text in the main content */
+        }
 
-    /* Style the left image container */
-    .top-left-image {
+        /* Style the left image container */
+        .top-left-image {
             position: absolute;
             top: 10%;
             left: 5%;
-    }
-        
-    /* Style the top right image container */
-    .top-right-image {
-        position: absolute;
-        top: 10%;
-        right: 15%;
-    }
-    
-    /* Style the bottom right image container with an offset */
-    .bottom-right-image {
-        position: absolute;
-        bottom: 5%; /* Adjust the offset from the bottom as needed */
-        right: 5%;
-    }
+        }
 
-    /* Reduce the size of all images by 25% */
-    img {
-        width: 60%;
-        height: auto;
-    }
+        /* Style the top right image container */
+        .top-right-image {
+            position: absolute;
+            top: 10%;
+            right: 15%;
+        }
 
-    .nav-link {
-        margin-left:35em;
-        margin-top: 8em;
-    }
-    
-    /* Your new styles for navigation links */
-    .nav-link a {
-        margin-right: 2em;
-        float: left;
-        text-decoration: none;
-        color: #3B3C26;
-    }
+        /* Style the bottom right image container with an offset */
+        .bottom-right-image {
+            position: absolute;
+            bottom: 5%;
+            /* Adjust the offset from the bottom as needed */
+            right: 5%;
+        }
 
-    .nav-link a:hover {
-        color: #E4D8C2; /* Change color on hover */
-    }
+        /* Reduce the size of all images by 25% */
+        img {
+            width: 60%;
+            height: auto;
+        }
 
-    /* Add a class for highlighting the active link */
-    .active-link {
-        color: #E4D8C2; /* Set color for the active link */
-        border-bottom: 0.1em solid #3B3C26;
-        border-width: thin;
-    }
+        .nav-link {
+            margin-left: 35em;
+            margin-top: 8em;
+        }
 
-    .center-text {
-         text-align: center;
-     }
-        
+        /* Your new styles for navigation links */
+        .nav-link a {
+            margin-right: 2em;
+            float: left;
+            text-decoration: none;
+            color: #3B3C26;
+        }
+
+        .nav-link a:hover {
+            color: #E4D8C2;
+            /* Change color on hover */
+        }
+
+        /* Add a class for highlighting the active link */
+        .active-link {
+            color: #E4D8C2;
+            /* Set color for the active link */
+            border-bottom: 0.1em solid #3B3C26;
+            border-width: thin;
+        }
+
+        .center-text {
+            text-align: center;
+        }
     </style>
 </head>
-    
-<div class = "nav-link">
-    <h1><a href="index.html">Home</a></h1>
-    <h1><a href="blog-list.html" class="active-link">Blog</a></h1>
-    <h1><a href="about.html">About</a></h1>
-    <h1><a href="contact.html">Contact</a></h1>
-</div>
-
-<main>
-    <div class="top-left-image">
-        <img src="wbg_dna.png" alt="DNA strand">
-    </div>
-    <div class="top-right-image">
-        <img src="wbg_comp.png" alt="Universality">
-    </div>
-    <div class="bottom-right-image">
-        <img src="wbg_web.png" alt="Web of woven guesses">
-    </div>
-</main>
 
 <body>
-<h2>Blogs</h2>
-<ul style = "list-style: none">
-    <li><a href="blog-5steps.html"> 5 Steps to the Destruction of Philosophy </a></li>
-    <!-- Add more blog titles as needed -->
-</ul>
-    
-<h2>Interesting Questions</h2>
-<p>Why is nearly all of our DNA non-coding? Why does the coding proportion of a genome appear to decrease as biological complexity increases? 
-    Why are cephalopods (seemingly) as intelligent as they are, given their short lifespans and (seemingly) non-existent social adaptive pressures? 
-    Why are there more recurrent neural connections than feedforward connections in the brain? 
-    Why are great ideas so often stumbled upon by different people at roughly the same time – Leibniz and Newton, Wallace and Darwin, Turing and Post?
-    Why are there no known cases of congenitally blind people with schizophrenia – and why is autism so common in blind people?</p>
+    <div class="nav-link">
+        <h1><a href="index.html">Home</a></h1>
+        <h1><a href="blog-list.html" class="active-link">Blog</a></h1>
+        <h1><a href="about.html">About</a></h1>
+        <h1><a href="contact.html">Contact</a></h1>
+    </div>
+
+    <main>
+        <div class="top-left-image">
+            <img src="wbg_dna.png" alt="DNA strand">
+        </div>
+        <div class="top-right-image">
+            <img src="wbg_comp.png" alt="Universality">
+        </div>
+        <div class="bottom-right-image">
+            <img src="wbg_web.png" alt="Web of woven guesses">
+        </div>
+
+        <h2>Blogs</h2>
+        <ul style="list-style: none">
+            <li><a href="blog-5steps.html"> 5 Steps to the Destruction of Philosophy </a></li>
+            <!-- Add more blog titles as needed -->
+        </ul>
+
+        <h2>Interesting Questions</h2>
+        <p>Why is nearly all of our DNA non-coding? Why does the coding proportion of a genome appear to decrease as
+            biological complexity increases? Why are cephalopods (seemingly) as intelligent as they are, given their
+            short lifespans and (seemingly) non-existent social adaptive pressures? Why are there more recurrent neural
+            connections than feedforward connections in the brain? Why are great ideas so often stumbled upon by
+            different people at roughly the same time – Leibniz and Newton, Wallace and Darwin, Turing and Post? Why
+            are there no known cases of congenitally blind people with schizophrenia – and why is autism so common in
+            blind people?</p>
+    </main>
 </body>
+
 </html>
+
 
