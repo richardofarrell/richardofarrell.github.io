@@ -9,6 +9,7 @@
         font-family: 'Open Sans', sans-serif;
         font-size: 20px; /* Adjust the desired font size */
     }
+        
     body {
             display: flex;
             flex-direction: column;
@@ -20,9 +21,15 @@
             text-align: center;
             margin: 125px 250px 125px 250px;
             line-height:.75;
-        
     }
-    
+
+    body nav-link {
+            min-height: 100vh; /* Ensure the page takes up at least the viewport height */
+            background-color: #FFF5C9; /* Light cream */
+            font-size: 62.5%;
+            webkit-text-size-adjust: none;
+    }
+        
     ul li a {
             text-decoration: none;
             color: black;
@@ -65,8 +72,6 @@
     .nav-link {
         margin-left:35em;
         margin-top: 8em;
-        font-size: 62.5%;
-        webkit-text-size-adjust: none;
     }
     
     /* Your new styles for navigation links */
@@ -95,38 +100,38 @@
     </style>
 </head>
     
-    <div class = "nav-link">
-        <h1><a href="index.html">Home</a></h1>
-        <h1><a href="blog-list.html" class="active-link">Blog</a></h1>
-        <h1><a href="about.html">About</a></h1>
-        <h1><a href="contact.html">Contact</a></h1>
+<div class = "nav-link">
+    <h1><a href="index.html">Home</a></h1>
+    <h1><a href="blog-list.html" class="active-link">Blog</a></h1>
+    <h1><a href="about.html">About</a></h1>
+    <h1><a href="contact.html">Contact</a></h1>
+</div>
+
+<main>
+    <div class="top-left-image">
+        <img src="wbg_dna.png" alt="DNA strand">
     </div>
+    <div class="top-right-image">
+        <img src="wbg_comp.png" alt="Universality">
+    </div>
+    <div class="bottom-right-image">
+        <img src="wbg_web.png" alt="Web of woven guesses">
+    </div>
+</main>
+
+<body>
+<h2>Blogs</h2>
+<ul style = "list-style: none">
+    <li><a href="blog-5steps.html"> 5 Steps to the Destruction of Philosophy </a></li>
+    <!-- Add more blog titles as needed -->
+</ul>
     
-    <main>
-        <div class="top-left-image">
-            <img src="wbg_dna.png" alt="DNA strand">
-        </div>
-        <div class="top-right-image">
-            <img src="wbg_comp.png" alt="Universality">
-        </div>
-        <div class="bottom-right-image">
-            <img src="wbg_web.png" alt="Web of woven guesses">
-        </div>
-    </main>
-    
-    <body>
-    <h2>Blogs</h2>
-    <ul style = "list-style: none">
-        <li><a href="blog-5steps.html"> 5 Steps to the Destruction of Philosophy </a></li>
-        <!-- Add more blog titles as needed -->
-    </ul>
-        
-    <h2>Interesting Questions</h2>
-    <p>Why is nearly all of our DNA non-coding? Why does the coding proportion of a genome appear to decrease as biological complexity increases? 
-        Why are cephalopods (seemingly) as intelligent as they are, given their short lifespans and (seemingly) non-existent social adaptive pressures? 
-        Why are there more recurrent neural connections than feedforward connections in the brain? 
-        Why are great ideas so often stumbled upon by different people at roughly the same time – Leibniz and Newton, Wallace and Darwin, Turing and Post?
-        Why are there no known cases of congenitally blind people with schizophrenia – and why is autism so common in blind people?</p>
-    </body>
+<h2>Interesting Questions</h2>
+<p>Why is nearly all of our DNA non-coding? Why does the coding proportion of a genome appear to decrease as biological complexity increases? 
+    Why are cephalopods (seemingly) as intelligent as they are, given their short lifespans and (seemingly) non-existent social adaptive pressures? 
+    Why are there more recurrent neural connections than feedforward connections in the brain? 
+    Why are great ideas so often stumbled upon by different people at roughly the same time – Leibniz and Newton, Wallace and Darwin, Turing and Post?
+    Why are there no known cases of congenitally blind people with schizophrenia – and why is autism so common in blind people?</p>
+</body>
 </html>
 
