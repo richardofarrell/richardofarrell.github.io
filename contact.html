@@ -1,34 +1,131 @@
 <!DOCTYPE html>
 <html>
-<style>
-    body {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            min-height: 100vh; /* Ensure the page takes up at least the viewport height */
-            background-color: #FFF5C9; /* Light cream */
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richard-OFarrell</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Blog List</title>
+    <style>
+        /* Change font for headings and paragraphs */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 20px;
+            /* Adjust the desired font size */
+        }
+
+        body {
+            min-height: 100vh;
+            /* Ensure the page takes up at least the viewport height */
+            background-color: #FFF5C9;
+            /* Light cream */
+            font-size: 62.5%;
+            webkit-text-size-adjust: none;
+        }
+
+        main {
+            background-color: #FFF5C9;
             font-family: 'Open Sans', sans-serif;
             font-size: 20px;
             text-align: center;
-            margin: 125px 250px 125px 250px;
-            line-height:.75;
-        
-    }
-    
-    a {
-            text-decoration: none;
-            color: black;
-            border-bottom-style: none;
-            margin-bottom: 5;
-    }
+            margin: 0 250px 0 250px;
+            margin-top: 6em;
+            /* Updated margin to center content */
+            line-height: .75;
+        }
 
-    p {
-        margin-top:0;
-        line-height:2;
-    }
-</style>
+        p {
+            line-height: 2;
+            text-align: justify;
+        }
+
+         /* Style the left image container */
+        .top-left-image {
+            position: absolute;
+            top: 10%;
+            left: 5%;
+        }
+        
+        /* Style the top right image container */
+        .top-right-image {
+            position: absolute;
+            top: 8%;
+            right: 5%;
+        }
+        
+        /* Style the bottom right image container with an offset */
+        .bottom-right-image {
+            position: absolute;
+            bottom: 8%; /* Adjust the offset from the bottom as needed */
+            right: 2%;
+        }
+
+        /* Reduce the size of all images by 25% */
+        img {
+            width: 60%;
+            height: auto;
+        }
+
+        .nav-link {
+            margin-left: 35em;
+            margin-top: 8em;
+        }
+
+        /* Your new styles for navigation links */
+        .nav-link a {
+            margin-right: 2em;
+            float: left;
+            text-decoration: none;
+            color: #3B3C26;
+        }
+
+        .nav-link a:hover {
+            color: #E4D8C2;
+            /* Change color on hover */
+        }
+
+        /* Add a class for highlighting the active link */
+        .active-link {
+            color: #E4D8C2;
+            /* Set color for the active link */
+            border-bottom: 0.1em solid #3B3C26;
+            border-width: thin;
+        }
+
+        .center-text {
+            text-align: center;
+        }
+    </style>
+</head>
 <body>
-    <h4>Contact</h4>
-    <p>You can lavish me with praise or offer me jobs via <a class="email-link" href="mailto:richardofarrell73@gmail.com">richardofarrell73@gmail.com</a></p>
+    <div class = "nav-link">
+        <h1><a href="index.html">Home</a></h1>
+        <h1><a href="blog-list.html">Blog</a></h1>
+        <h1><a href="about.html" class="active-link">About</a></h1>
+        <h1><a href="contact.html">Contact</a></h1>
+    </div>
+    <br> 
+    
+    <div class="top-left-image">
+        <img src="wbg_dna.png" alt="DNA strand">
+    </div>
+    
+    <div class="top-right-image">
+        <img src="wbg_comp.png" alt="Universality">
+    </div>
+    
+    <div class="bottom-right-image">
+        <img src="wbg_web.png" alt="Web of woven guesses">
+    </div>
+
+    <main>
+        <h2>Contact</h2>
+        <p>You can lavish me with praise or offer me jobs via <a class="email-link" href="mailto:richardofarrell73@gmail.com">richardofarrell73@gmail.com</a></p>
+    </main>
 </body>
-</html>
