@@ -77,35 +77,35 @@
             height: auto;
         }
 
-        .nav-link {
-            margin-left: 35em;
-            margin-top: 8em;
         }
 
+        .nav-link {
+            margin-left: clamp(23%, 2vw + 0.2rem, 30%);
+            /*margin-left:clamp(5.3rem, 2vw + 0.5rem, 7rem);*/
+            margin-top: 5%;
+        }
         /* Your new styles for navigation links */
         .nav-link a {
-            margin-right: 2em;
+            margin-right: clamp(0.8rem, 2vw + 0.2rem, 1.5rem);
             float: left;
             text-decoration: none;
             color: #3B3C26;
         }
 
         .nav-link a:hover {
-            color: #E4D8C2;
-            /* Change color on hover */
+            color: #E4D8C2; /* Change color on hover */
         }
 
         /* Add a class for highlighting the active link */
         .active-link {
-            color: #E4D8C2;
-            /* Set color for the active link */
+            color: #E4D8C2; /* Set color for the active link */
             border-bottom: 0.1em solid #3B3C26;
             border-width: thin;
         }
 
         .center-text {
-            text-align: center;
-        }
+             text-align: center;
+         }
     </style>
 </head>    
 <body>
