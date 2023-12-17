@@ -8,24 +8,15 @@
     <title>Blog List</title>
     <style>
         /* Change font for headings and paragraphs */
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        p {
+        h1, h2, h3, h4, h5, h6, p {
             font-family: 'Open Sans', sans-serif;
-            font-size: 20px;
-            /* Adjust the desired font size */
+            font-size: clamp(14px, 1.8vw, 20px); /* Adjust the desired font size */
         }
 
+        /* Center the entire page content */
         body {
-            min-height: 100vh;
-            /* Ensure the page takes up at least the viewport height */
-            background-color: #FFF5C9;
-            /* Light cream */
-            font-size: 62.5%;
+            min-height: 100vh; /* Ensure the page takes up at least the viewport height */
+            background-color: #FFF5C9; /* Light cream */
             webkit-text-size-adjust: none;
         }
 
@@ -58,59 +49,56 @@
          /* Style the left image container */
         .top-left-image {
             position: absolute;
-            top: 10%;
+            top: 15%;
             left: 5%;
         }
         
         /* Style the top right image container */
         .top-right-image {
             position: absolute;
-            top: 8%;
-            right: 5%;
+            top: 13%;
+            right: 3vw;
         }
         
         /* Style the bottom right image container with an offset */
         .bottom-right-image {
             position: absolute;
-            bottom: 8%; /* Adjust the offset from the bottom as needed */
-            right: 2%;
+            bottom: 15%; /* Adjust the offset from the bottom as needed */
+            right: 10%;
         }
 
-        /* Reduce the size of all images by 25% */
         img {
-            width: 60%;
-            height: auto;
+            width: 100%;
+            max-width: clamp(2rem, 7vw, 5rem);
         }
 
         .nav-link {
-            margin-left: 35em;
-            margin-top: 8em;
+            margin-left: clamp(23%, 2vw + 0.2rem, 30%);
+            /*margin-left:clamp(5.3rem, 2vw + 0.5rem, 7rem);*/
+            margin-top: 5%;
         }
-
         /* Your new styles for navigation links */
         .nav-link a {
-            margin-right: 2em;
+            margin-right: clamp(0.8rem, 2vw + 0.2rem, 1.5rem);
             float: left;
             text-decoration: none;
             color: #3B3C26;
         }
 
         .nav-link a:hover {
-            color: #E4D8C2;
-            /* Change color on hover */
+            color: #E4D8C2; /* Change color on hover */
         }
 
         /* Add a class for highlighting the active link */
         .active-link {
-            color: #E4D8C2;
-            /* Set color for the active link */
+            color: #E4D8C2; /* Set color for the active link */
             border-bottom: 0.1em solid #3B3C26;
             border-width: thin;
         }
 
         .center-text {
-            text-align: center;
-        }
+             text-align: center;
+         }
     </style>
 </head>
 <body>
