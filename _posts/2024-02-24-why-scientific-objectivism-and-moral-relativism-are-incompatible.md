@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Why Scientific Objectivism and Moral Relativism are Incompatible
 categories: [philosophy, knowledge]
 tags: [ethics, morality, objectivism]
