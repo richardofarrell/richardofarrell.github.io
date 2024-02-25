@@ -5,4 +5,4 @@ title: Contact
 
 # Contact
 
-You can lavish me with praise or offer me jobs via [richardofarrell73@gmail.com](mailto:richardofarrell73@gmail.com).
+You can lavish me with praise or offer me jobs via <a class="email-link" href="mailto:richardofarrell73@gmail.com">richardofarrell73@gmail.com</a></p>
