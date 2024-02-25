@@ -24,12 +24,16 @@ layout: default
     ul.myposts li a:hover {
         color: #808080; /* Change color on hover */
     }
+
+    .postDate {
+        font-size: clamp(20px, 4vw, 28px);
+    }
 </style>
 
 <ul class="myposts">
 {% for post in site.posts %}
     <li><a href="{{ post.url }}">{{ post.title}}</a>
-    <span class="postDate" style="font-size: clamp(20px, 4vw, 28px);">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
     </li>
 {% endfor %}
 </ul>
