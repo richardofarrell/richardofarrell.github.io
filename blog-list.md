@@ -3,6 +3,16 @@ layout: blog-lists
 title: Blog List
 ---
 
+# Blogs
+
+# <ul class="myposts">
+# {% for post in site.posts %}
+#    <li><a href="{{ post.url }}">{{ post.title}}</a>
+#    <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
+#    </li>
+#{% endfor %}
+#</ul>
+
 # Questions
 
 Why is nearly all of our DNA non-coding? Why does the coding proportion of a genome appear to decrease as
