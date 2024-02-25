@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog-lists
 title: Blog List
 ---
 <!-- # Blogs
