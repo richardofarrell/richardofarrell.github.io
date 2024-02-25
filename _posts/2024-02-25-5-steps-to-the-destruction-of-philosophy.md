@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 5 Steps to the Destruction of Philosophy
 categories: [philosophy, knowledge]
 tags: [empiricism, holism, science]
