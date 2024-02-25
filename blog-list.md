@@ -5,7 +5,6 @@ title: Blog List
 # Blogs
 - [5 Steps to the Destruction of Philosophy](blog-5steps.html)
 - [Why Scientific Objectivism and Moral Relativism are Incompatible]({{ site.baseurl }}/2024/02/24-why-scientific-objectivism-and-moral-relativism-are-incompatible.html)
-<!-- Add more blog titles as needed -->
 
 
 # Questions
