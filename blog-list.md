@@ -7,6 +7,7 @@ title: Blog List
 - [Why Scientific Objectivism and Moral Relativism are Incompatible]({{ site.baseurl }}/2024/02/24-why-scientific-objectivism-and-moral-relativism-are-incompatible.html)
 <!-- Add more blog titles as needed -->
 
+
 # Questions
 
 Why is nearly all of our DNA non-coding? Why does the coding proportion of a genome appear to decrease as
