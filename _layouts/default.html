@@ -16,7 +16,8 @@
         main {
             font-family: 'Open Sans', sans-serif;
             font-size: clamp(20px, 4vw, 28px);/* Adjust the desired font size */
-            margin: 0 clamp(50px, 5vw + 30px, 150px) clamp(100px, 15vw + 30px, 225px); /* Updated margin */
+            margin: 0 clamp(50px, 5vw + 30px, 150px) clamp(100px, 15vw + 30px, 250px); /* Updated margin */
+            margin-top: 5em;
             text-align: center; /* Center align the content */
         }
 
@@ -110,6 +111,13 @@
         ul li:before {
             content: "-";
             padding-right: 0.5em;
+        }
+
+        @media screen and (max-width: 768px) {
+            /* Adjust margin for smaller devices */
+            main {
+                margin: 0 clamp(40px, 10vw + 20px, 100px) clamp(80px, 15vw + 20px, 150px);
+            }
         }
 
         </style>
