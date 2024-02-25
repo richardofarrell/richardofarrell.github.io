@@ -3,4 +3,4 @@ title: My page
 layout: default
 ---
 
-# richard o'farrell
+# <span style="font-size:0.5em;">richard o'farrell</span>
