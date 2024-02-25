@@ -93,13 +93,26 @@
         a {
             text-decoration: none; /* Remove underline */
             color: black; /* Set link color */
-            font-size: clamp(14px, 1.2vw, 16px); /* Adjust link font size */
+            font-size: clamp(14px, 1.8vw, 20px); /* Adjust link font size */
         }
 
         a:hover {
             color: #808080; /* Change color on hover */
         }
-            </style>
+
+        /* Remove bullet points */
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        /* Change list item prefix to emdash */
+        ul li:before {
+            content: "—";
+            padding-right: 0.5em;
+        }
+
+        </style>
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script>
