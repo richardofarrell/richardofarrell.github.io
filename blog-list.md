@@ -1,6 +1,6 @@
 ---
 layout: blog-lists
-title: Blog List
+title: Blog
 ---
 
 # Blogs
