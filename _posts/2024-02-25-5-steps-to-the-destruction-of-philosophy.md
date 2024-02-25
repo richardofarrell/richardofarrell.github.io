@@ -18,6 +18,7 @@ But not so fast! Sentences would themselves be seized, and, as with any good of 
 
 Therein lay the deathblow to the first dogma of empiricism: reductionism. The second – the existence of an analytic/synthetic divide – would soon dissolve with it.
 
+
 If statements are not objects of meaning, then the supposed existence of analytic statements – those deemed to be true by virtue of the meaning of their constituent terms – within the corporate body could no more be endorsed than could the existence of intrinsically blue or green sentences – never mind blue-green sentences. Analytic statements could be straightforwardly rejected:
 
 >“The organizing role that was supposedly the role of analytic sentences is now seen as shared by sentences generally, and the empirical content that was supposed peculiar to synthetic sentences is now seen as diffused through the system”
