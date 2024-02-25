@@ -1,7 +1,31 @@
 ---
 layout: default
 ---
-{{ content }}
+<style>
+    /* Links in list */
+    ul.myposts {
+        list-style: none;
+        padding-left: 0;
+        margin-top: 0px;
+    }
+
+    /* Change list item prefix to emdash */
+    ul.myposts li:before {
+        content: "-";
+        padding-right: 0.5em;
+    }
+
+    ul.myposts li a {
+        text-decoration: none; /* Remove underline */
+        color: black; /* Set link color */
+        padding: clamp(2px, 4px, 12px);
+    }
+
+    ul.myposts li a:hover {
+        color: #808080; /* Change color on hover */
+    }
+</style>
+
 <ul class="myposts">
 {% for post in site.posts %}
     <li><a href="{{ post.url }}">{{ post.title}}</a>
@@ -9,3 +33,5 @@ layout: default
     </li>
 {% endfor %}
 </ul>
+
+{{ content }}
