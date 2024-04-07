@@ -21,4 +21,4 @@ short lifespans and (seemingly) non-existent social adaptive pressures? Why are 
 connections than feedforward connections in the brain? Why are great ideas so often stumbled upon by
 different people at roughly the same time – e.g., Leibniz and Newton, Wallace and Darwin, Turing and Post? Why
 are there no known cases of congenitally blind people with schizophrenia – and why is autism so common in
-blind people?
+blind people? These are a few of my favourite things!
