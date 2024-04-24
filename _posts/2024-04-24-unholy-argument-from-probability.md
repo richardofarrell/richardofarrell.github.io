@@ -21,7 +21,7 @@ Now, there are several issues with an argument like this. First, there's a missi
 
 
 ```math
-Pr(God created reality | Reality) = \frac{Pr(Reality | God created it) Pr(God)}{Pr(Reality)}
+Pr(God | Reality) = \frac{Pr(Reality | God) Pr(God)}{Pr(Reality)}
 ```
 
 
