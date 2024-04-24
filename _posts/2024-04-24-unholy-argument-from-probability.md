@@ -19,7 +19,11 @@ Since the conjunction cannot be as probable as the individual claim that reality
 
 Now, there are several issues with an argument like this. First, there's a missing premise. Why should we prefer to say that reality exists, rather than say that God exists? Each of the individual claims must be more likely than the conjunction! The missing assumption assumes that reality is already certain. Which is obviously question-begging. Also, the conjunction of *P* (Reality exists) & *P* (God exists) isn't equivalent to the statement that reality exists *because* God exists, which is what religious typically want to claim. In other words, there's a conditional baked into the religious argument which has been omitted. The more relevant question is something like the following Bayesian computation:
 
-*P* (God created reality | Reality ) = *P* (Reality | God created it) *P* (God) all divided over *P* (Reality)!
+$$
+P(A | B) = \frac{P(B | A) \cdot P(A)}{P(B)}
+$$
+
+$$ P(God created reality | Reality ) = *P* (Reality | God created it) *P* (God) all divided over *P* (Reality)!
 
 Of course, any attempt to calculate this is meaningless drivel. Unsurprisingly, many have in fact tried to do it and come up with numbers to support whichever side of the argument they originally wished to endorse.
 
