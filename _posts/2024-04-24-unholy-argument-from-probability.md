@@ -13,24 +13,20 @@ The argument went something as follows:
 
 A conjunction of statements can only be less likely, or equally as likely, as either statement on its own.
 
-Consider the argument for God's existence a conjunction of two probabilities: *P*(Observable reality exists) & *P*(God exists).
+Consider the argument for God's existence a conjunction of two probabilities: *P* (Observable reality exists) & *P* (God exists).
 
 Since the conjunction cannot be as probable as the individual claim that reality exists, we should prefer to say that reality exists, instead of saying reality and God exist.
 
-Now, there are several issues with an argument like this. First, there's a missing premise. Why should we prefer to say that reality exists, rather than say that God exists? Each of the individual claims must be more likely than the conjunction! The missing assumption assumes that reality is already certain. Which is obviously question-begging. Also, the conjunction of *P*(Reality exists) & *P*(God exists) isn't equivalent to the statement that reality exists *because* God exists, which is what religious typically want to claim. In other words, there's a conditional baked into the religious argument which has been omitted. The more relevant question is something like the following Bayesian computation:
+Now, there are several issues with an argument like this. First, there's a missing premise. Why should we prefer to say that reality exists, rather than say that God exists? Each of the individual claims must be more likely than the conjunction! The missing assumption assumes that reality is already certain. Which is obviously question-begging. Also, the conjunction of *P* (Reality exists) & *P* (God exists) isn't equivalent to the statement that reality exists *because* God exists, which is what religious typically want to claim. In other words, there's a conditional baked into the religious argument which has been omitted. The more relevant question is something like the following Bayesian computation:
 
-          $$*P*(God created reality | Reality ) = *P*(Reality | God created it) *P*(God) all divided over *P*(Reality)!$$
-
-$$
-P(God \text{ created reality} | \text{Reality}) = \frac{P(\text{Reality} | \text{God created it}) \cdot P(God)}{P(\text{Reality})}
-$$
+          *P* (God created reality | Reality ) = *P* (Reality | God created it) *P* (God) all divided over *P* (Reality)!
 
 
- Of course, any attempt to calculate this is meaningless drivel. Unsurprisingly, many have in fact tried to do it and come up with numbers to support whichever side of the argument they originally wished to endorse.
+Of course, any attempt to calculate this is meaningless drivel. Unsurprisingly, many have in fact tried to do it and come up with numbers to support whichever side of the argument they originally wished to endorse.
 
-The deeper issue with all of this is not so much that *P*(getting anything interesting | some speculative probabilities) is near zero. The issue is that probabilistic reasoning is itself a blunt instrument in many ways.
+The deeper issue with all of this is not so much that *P* (getting anything interesting | some speculative probabilities) is near zero. The issue is that probabilistic reasoning is itself a blunt instrument in many ways.
 
-It's easier to see this with another example. Take the claim that the Earth revolves around the sun and add to it the claim that it does so in ellipses: *P*(Earth orbits the Sun) & *P*(Earth moves in ellipses). These are distinguishable claims, in that one can see how the Earth could orbit the sun while moving in a different way, and similarly it could be true that the Earth moves elliptically, but just not around the sun. What's more, we know the claims to be independently true, albeit never with certainty. It may be that the Earth's orbit is in fact being miscalculated, or that the appearance of the sun is a hologram. Obviously, these are absurd things to think, but they're the kinds of things which prevent you from ever rounding up to *P* = 1. So we have two very likely but not certain claims – meaning that together, their conjunction is indeed less likely than either one of them. Now the question to consider is: what does this mathematical information achieve? One problem is that it implies, as Popper pointed out, that we should prefer theories which are almost devoid of any content at all. In other words, we should prefer to say that the Earth exists much more than we should wish to say that it exists, travels round the sun, does so in ellipses, speeds up the closer it gets, all the while spinning on its axis.
+It's easier to see this with another example. Take the claim that the Earth revolves around the sun and add to it the claim that it does so in ellipses: *P* (Earth orbits the Sun) & *P* (Earth moves in ellipses). These are distinguishable claims, in that one can see how the Earth could orbit the sun while moving in a different way, and similarly it could be true that the Earth moves elliptically, but just not around the sun. What's more, we know the claims to be independently true, albeit never with certainty. It may be that the Earth's orbit is in fact being miscalculated, or that the appearance of the sun is a hologram. Obviously, these are absurd things to think, but they're the kinds of things which prevent you from ever rounding up to *P* = 1. So we have two very likely but not certain claims – meaning that together, their conjunction is indeed less likely than either one of them. Now the question to consider is: what does this mathematical information achieve? One problem is that it implies, as Popper pointed out, that we should prefer theories which are almost devoid of any content at all. In other words, we should prefer to say that the Earth exists much more than we should wish to say that it exists, travels round the sun, does so in ellipses, speeds up the closer it gets, all the while spinning on its axis.
 
 Here's David Deutsch providing a better refutation of probabilistic reasoning:
 
