@@ -55,7 +55,7 @@
         } */
 
         .nav-link {
-            text-align: center;
+            align-items: center;
         }
         /* Your new styles for navigation links */
         .nav-link a {
@@ -130,7 +130,7 @@
 </head>
 
 <body>
-    <div style="flex: 1;" class="nav-link" "center-text">
+    <div class="nav-link" "main-container">
               {% assign is_blog_page = false %}
         {% for post in site.posts %}
           {% if post.url == page.url %}
