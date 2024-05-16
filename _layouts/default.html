@@ -54,12 +54,9 @@
             max-width: clamp(2rem, 7vw, 5rem);
         } */
 
-        .nav-link {
-            text-align: center;
-        }
         /* Your new styles for navigation links */
         .nav-link a {
-            margin-right: clamp(0.8rem, 2vw + 0.2rem, 1.5rem);
+            float: left;
             text-decoration: none;
             color: #3B3C26;
         }
@@ -129,7 +126,7 @@
 </head>
 
 <body>
-    <div class="nav-link">
+    <div class="nav-link" "center-text">
               {% assign is_blog_page = false %}
         {% for post in site.posts %}
           {% if post.url == page.url %}
