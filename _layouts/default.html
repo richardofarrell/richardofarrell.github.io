@@ -28,12 +28,11 @@
             webkit-text-size-adjust: none;
         }
 
-        .nav-link {
+        .main-container {
           display: flex;
           flex-direction: row;
           justify-content: center;
           align-items: center;
-          height: 100vh; /* Center vertically within the viewport */
         }
 
         /* Your new styles for navigation links */
@@ -109,7 +108,7 @@
 </head>
 
 <body>
-    <div class="nav-link">
+    <div class="main-container">
               {% assign is_blog_page = false %}
         {% for post in site.posts %}
           {% if post.url == page.url %}
@@ -118,10 +117,10 @@
           {% endif %}
         {% endfor %}
 
-        <div><h1><a href="{{ site.baseurl }}/" {% if page.url == "/" %} class="active-link" {% endif %}>Home</a></h1></div>
-        <div><h1><a href="{{ site.baseurl }}/blog-list.html" {% if page.url == "/blog-list.html" or is_blog_page %} class="active-link" {% endif %}>Blog</a></h1></div>
-        <div><h1><a href="{{ site.baseurl }}/about.html" {% if page.url == "/about.html" %} class="active-link" {% endif %}>About</a></h1></div>
-        <div><h1><a href="{{ site.baseurl }}/contact.html" {% if page.url == "/contact.html" %} class="active-link" {% endif %}>Contact</a></h1></div>
+        <div class="nav-link"><h1><a href="{{ site.baseurl }}/" {% if page.url == "/" %} class="active-link" {% endif %}>Home</a></h1></div>
+        <div class="nav-link"><h1><a href="{{ site.baseurl }}/blog-list.html" {% if page.url == "/blog-list.html" or is_blog_page %} class="active-link" {% endif %}>Blog</a></h1></div>
+        <div class="nav-link"><h1><a href="{{ site.baseurl }}/about.html" {% if page.url == "/about.html" %} class="active-link" {% endif %}>About</a></h1></div>
+        <div class="nav-link"><h1><a href="{{ site.baseurl }}/contact.html" {% if page.url == "/contact.html" %} class="active-link" {% endif %}>Contact</a></h1></div>
     </div>
     <br>
 
