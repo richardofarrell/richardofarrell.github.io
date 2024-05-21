@@ -13,7 +13,7 @@ title: Blog
 {% endfor %}
 </ul>
 
-<br></br>
+<br>
 # Questions
 
 Why is nearly all of our DNA non-coding? Why does the coding proportion of a genome appear to decrease as
