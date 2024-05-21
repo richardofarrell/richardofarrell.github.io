@@ -3,11 +3,12 @@ layout: post
 title: Unholy Arguments from Probability
 categories: [philosophy, knowledge]
 tags: [probability, science, religion, God]
+mathjax: true
 ---
 
 # Unholy Arguments from Probability
 
-I recently had the misfortune of listening to a group of people discussing whether it's reasonable to believe in God. The conversation was, unsurprisingly, very dull – with both sides appealing to various arguments from authority, throwing the burden-of-proof potato back and forth ad nauseum. One of the claims struck me, however. It struck me in particular because it demonstrated why probabilistic reasoning is so often invalid when tackling empirical and epistemological questions.
+I recently had the misfortune of listening to a group of people discussing the rationality of belief in God. The conversation was, unsurprisingly, very dull; both sides appealing to various arguments from authority, throwing the burden-of-proof potato back and forth ad nauseum. One of the claims struck me, however. And it struck me in particular, as it demonstrated how probabilistic reasoning is so often useless win empirical or epistemological matters.
 
 The argument went something as follows:
 
