@@ -28,16 +28,12 @@
             webkit-text-size-adjust: none;
         }
 
-        .main-container {
+        .nav-link {
           display: flex;
           flex-direction: row;
           justify-content: center;
           align-items: center;
           height: 100vh; /* Center vertically within the viewport */
-        }
-
-        .nav-link {
-          margin-top: auto; /* Push the navigation links to the top */
         }
 
         /* Your new styles for navigation links */
@@ -113,7 +109,7 @@
 </head>
 
 <body>
-    <div class="main-container">
+    <div class="nav-link">
               {% assign is_blog_page = false %}
         {% for post in site.posts %}
           {% if post.url == page.url %}
