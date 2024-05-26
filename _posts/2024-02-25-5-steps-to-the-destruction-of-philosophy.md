@@ -36,6 +36,8 @@ Philosophy, insofar as we can still respectably refer to anything of the sort, i
 
 The upshot is that philosophy is, to put a finer and final point on it, *for* science. In the same way that one might employ a research assistant to manually comb through unsympathetically collated spreadsheets for the purposes of 'real' data analysis, or perhaps to prepare some apparatus for the 'real' experiment, so too the philosopher's efforts are to be usefully repurposed towards a kind of pedantic fussing over the circularities and non-sequiturs which are bound to crop up before the 'real' thinking begins. Philosophy is to science as proofreading is to writing: useful, but incapable of generating much in the way of insight. Because, again, there are no philosophical problems – only failures to clarify one's thoughts. Serious thinking means no longer doing philosophy, means generating scientific hypotheses.
 
-And who could be so blind as to challenge such a claim, given the current data – existing as it does (or perhaps more accurately, as it no longer does) both in and outside of the philosophy departments? Philosophy is dead. Philosophy remains dead. And the philosophers have killed it.
+And who could be so blind as to challenge such a claim, given the current data – existing as it does (or perhaps more accurately, as it no longer does) both in and outside of the philosophy departments?
+
+Philosophy is dead. Philosophy remains dead. And the philosophers have killed it.
 
 This deed is still more distant from them than the most distant stars – and yet they have done it themselves.
