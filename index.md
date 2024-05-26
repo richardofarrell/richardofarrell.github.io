@@ -9,5 +9,3 @@ layout: default
 <br>
 <!-- Add your image here -->
 <img src="profile.jpeg" alt="Me enjoying ice cream and aperol" style="max-width: 100%; height: auto;">
-
-{% include default %}
