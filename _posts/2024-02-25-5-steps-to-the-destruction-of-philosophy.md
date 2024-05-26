@@ -6,6 +6,7 @@ tags: [empiricism, holism, science]
 ---
 # 5 Steps to the Destruction of Philosophy
 <br>
+<br>
 
 Empiricism took five positive turns after Hume, according to Quine.
 
