@@ -8,4 +8,4 @@ layout: default
 <br>
 <br>
 <!-- Add your image here -->
-<img src="profile.jpeg" alt="Me enjoying ice cream and aperol" style="max-width: 50%; height: auto;">
+<img src="profile.jpeg" alt="Me enjoying ice cream and aperol" style="max-width: 40%; height: auto; display: block; margin: 0 auto;">
