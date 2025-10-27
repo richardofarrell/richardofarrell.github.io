@@ -22,7 +22,7 @@ name: richard o'farrell
 email: richardofarrell73@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I like science, philosophy, progress, truth, beauty, and more. This is my attempt to know (and therefore write) much more.
-baseurl: / # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://richardofarrell.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Richie_OFarrell
 github_username:  richardofarrell
@@ -31,6 +31,8 @@ github_username:  richardofarrell
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
